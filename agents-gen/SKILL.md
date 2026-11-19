@@ -1,6 +1,6 @@
 ---
 name: agents-gen
-description: Mandatory AGENTS.md lifecycle gate for direct requests to create, update, organize, audit, or fix project AGENTS.md files and for every implementation task that creates, modifies, renames, or deletes project files. Create a minimal root, give independent subprojects scoped instructions, route conditional guidance through discoverable .agent-guides, and report unchanged when no durable instruction impact exists. Skip pure discussion, research, planning, and other read-only tasks.
+description: "MUST invoke on EVERY task that creates, edits, renames, or deletes project files—even if the user never mentions AGENTS.md—and on direct requests to create, update, organize, or audit AGENTS.md. Maintains minimal root/subproject AGENTS.md and .agent-guides, or reports unchanged when no durable instruction impact exists. Skip pure read-only tasks."
 metadata:
   short-description: Create and maintain scoped AGENTS.md files
 ---
